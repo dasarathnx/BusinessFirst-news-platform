@@ -6,6 +6,7 @@ generator client {
 datasource db {
   provider = "postgresql"
   // URL is provided via prisma.config.ts or adapter configuration
+  
 }
 
 // Import all schema modules

@@ -135,6 +135,7 @@ model Article {
   @@index([isFeatured])
   @@index([isBreakingNews])
   @@index([createdAt])
+  @@index([title])
 }
 
 model Tag {
